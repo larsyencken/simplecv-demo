@@ -19,6 +19,10 @@ Run `simplecv notebook` and open the `morphology` notebook.
 - `05-skin-tones.py`: detecting people using skin tones
 - `06*-edges.py`: edge detection
 
+## Part 3: faces
+
+- `07-find-faces.py`: face recognition
+
 ## Useful references
 
 - [SimpleCV](http://www.simplecv.org/)
