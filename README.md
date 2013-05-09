@@ -11,10 +11,10 @@ Run `simplecv notebook` and open the `image-basics` notebook.
 - `00*-loop.py`: a hello world camera loop
 - `01*-sidebyside.py`: displaying output side-by-side
 - `02*-threshold.py`: thresholding images using `im.binarize()`
+
+Run `simplecv notebook` and open the `image-operations` notebook.
+
 - `03*-motion.py`: basic motion detection
-
-Run `simplecv notebook` and open the `morphology` notebook.
-
 - `04*-vs-*.py`: erode and dilate, open and close
 - `05-skin-tones.py`: detecting people using skin tones
 - `06*-edges.py`: edge detection
