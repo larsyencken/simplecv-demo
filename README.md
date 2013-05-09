@@ -23,6 +23,10 @@ Run `simplecv notebook` and open the `morphology` notebook.
 
 - `07-find-faces.py`: face recognition
 
+## Part 4: remote cameras
+
+- `08*.py`: jpeg streams and IP cameras
+
 ## Useful references
 
 - [SimpleCV](http://www.simplecv.org/)
