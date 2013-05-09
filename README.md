@@ -16,6 +16,8 @@ Run `simplecv notebook` and open the `image-basics` notebook.
 Run `simplecv notebook` and open the `morphology` notebook.
 
 - `04*-vs-*.py`: erode and dilate, open and close
+- `05-skin-tones.py`: detecting people using skin tones
+- `06*-edges.py`: edge detection
 
 ## Useful references
 
