@@ -2,10 +2,20 @@
 
 Code to accompany a talk to the Foundations of Computing (COMP10001, Semester 1 2013) class at the University of Melbourne.
 
+## Part 1: image processing
+
+Run `simplecv notebook` and open the `image-basics` notebook.
+
+## Part 2: working with your camera
+
 - `00-loop.py`: a hello world camera loop
 - `01*-sidebyside.py`: displaying output side-by-side
 - `02*-threshold.py`: thresholding images using `im.binarize()`
 - `03*-motion.py`: basic motion detection
+
+Run `simplecv notebook` and open the `morphology` notebook.
+
+- `04*-vs-*.py`: erode and dilate, open and close
 
 ## Useful references
 
