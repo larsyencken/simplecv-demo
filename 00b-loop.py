@@ -19,5 +19,7 @@ while disp.isNotDone():
     img.save(disp)
     img.save('timelapse/%.06d.jpg' % i)
 
+    i += 1
+
     if disp.lastLeftButton:
         break

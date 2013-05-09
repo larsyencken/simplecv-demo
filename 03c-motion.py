@@ -5,18 +5,22 @@ disp = SimpleCV.Display((1024, 768))
 
 
 def print_motion(m):
-    print int(m / 15) * '*'
+    print int(m / 0.05) * '*'
 
 
-last = cam.getImage()
+last = cam.getImage().toGray()
 w, h = last.size()
-total = w * h
+num_pixels = w * h
 while disp.isNotDone():
     img = cam.getImage().toGray()
     diff = (img - last).binarize(10).invert().erode(4).dilate(5)
+
+    motion = diff.getNumpy().sum() / (255 * float(num_pixels))
+
+    diff.drawText('%.00f' % (100 * motion), color=(255, 50, 50),
+                  fontsize=120)
+
     diff.save(disp)
-    motion = diff.getNumpy().sum() / float(total)
-    print_motion(motion)
 
     last = img
 

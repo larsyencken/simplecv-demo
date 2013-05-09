@@ -5,10 +5,10 @@ disp = SimpleCV.Display((1024, 768))
 
 while disp.isNotDone():
     im = cam.getImage()
-    im20 = im.binarize(20)
-    im40 = im.binarize(40)
-    im80 = im.binarize(80)
-    im120 = im.binarize(120)
+    im20 = im.binarize(20).invert()
+    im40 = im.binarize(40).invert()
+    im80 = im.binarize(80).invert()
+    im120 = im.binarize(120).invert()
 
     im20.sideBySide(im40).sideBySide(
         im80.sideBySide(im120),

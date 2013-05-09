@@ -10,7 +10,7 @@ while disp.isNotDone():
     )
     h.sideBySide(
         h.flipVertical(),
-        'bottom'
+        'top'
     ).save(disp)
 
     if disp.lastLeftButton:
