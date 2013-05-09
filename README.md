@@ -8,7 +8,7 @@ Run `simplecv notebook` and open the `image-basics` notebook.
 
 ## Part 2: working with your camera
 
-- `00-loop.py`: a hello world camera loop
+- `00*-loop.py`: a hello world camera loop
 - `01*-sidebyside.py`: displaying output side-by-side
 - `02*-threshold.py`: thresholding images using `im.binarize()`
 - `03*-motion.py`: basic motion detection
