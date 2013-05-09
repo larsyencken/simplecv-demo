@@ -36,5 +36,7 @@ Run `simplecv notebook` and open the `morphology` notebook.
 
 ## Example image sources
 
-- [MSDN: Color](http://msdn.microsoft.com/en-us/library/windows/desktop/aa511283.aspx), source of RGB and HSV color space images
-- [Pinterest Pin: Rainbow cake](http://pitereset-pin.blogspot.com/2013/01/rainbow-cake.html), source of rainbow cake image
+- [MSDN: Color](http://msdn.microsoft.com/en-us/library/windows/desktop/aa511283.aspx), source of `rgb-cube.jpg` and `hsv-cone.jpg`
+- [Pinterest Pin: Rainbow cake](http://pitereset-pin.blogspot.com/2013/01/rainbow-cake.html), source of `rainbow-cake.jpg`
+- [Prison Cat Found With Cellphone, Small Saws in Brazil](http://www.heavy.com/news/2013/01/prison-cat-cellphone-saws/), source of `prizon-cat.jpg`
+- [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg), source of `gizah.jpg`
