@@ -40,3 +40,7 @@ Run `simplecv notebook` and open the `image-operations` notebook.
 - [Pinterest Pin: Rainbow cake](http://pitereset-pin.blogspot.com/2013/01/rainbow-cake.html), source of `rainbow-cake.jpg`
 - [Prison Cat Found With Cellphone, Small Saws in Brazil](http://www.heavy.com/news/2013/01/prison-cat-cellphone-saws/), source of `prizon-cat.jpg`
 - [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg), source of `gizah.jpg`
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/larsyencken/simplecv-demo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
