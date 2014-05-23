@@ -1,31 +1,24 @@
 # SimpleCV Demos
 
-Code to accompany a talk to the Foundations of Computing (COMP10001, Semester 1 2013) class at the University of Melbourne.
+Code to accompany a talk to the Foundations of Computing class at the University of Melbourne.
 
-## Part 1: image processing
+## Requirements
 
-Run `simplecv notebook` and open the `image-basics` notebook.
+You should install:
 
-## Part 2: working with your camera
+- `SimpleCV` (requires `opencv`)
+- `numpy`
+- `ipython[notebook]`
 
-- `00*-loop.py`: a hello world camera loop
-- `01*-sidebyside.py`: displaying output side-by-side
-- `02*-threshold.py`: thresholding images using `im.binarize()`
+## Running the examples
 
-Run `simplecv notebook` and open the `image-operations` notebook.
+The examples are numbered, so that you can build from simple cases to more advanced ones.
 
-- `03*-motion.py`: basic motion detection
-- `04*-vs-*.py`: erode and dilate, open and close
-- `05-skin-tones.py`: detecting people using skin tones
-- `06*-edges.py`: edge detection
+For `.ipynb` files, open them in the IPython notebook (run `ipython notebook` in the same folder). If you don't have IPython installed, you can read them online at:
+- [00-image-basics](http://nbviewer.ipython.org/github/larsyencken/simplecv-demo/blob/master/00-image-basics.ipynb)
+- [03-image-operations](http://nbviewer.ipython.org/github/larsyencken/simplecv-demo/blob/master/03-image-operations.ipynb)
 
-## Part 3: faces
-
-- `07-find-faces.py`: face recognition
-
-## Part 4: remote cameras
-
-- `08*.py`: jpeg streams and IP cameras
+For `.py` files, just run them directly in shell (`python myscript.py`).
 
 ## Useful references
 
@@ -41,6 +34,4 @@ Run `simplecv notebook` and open the `image-operations` notebook.
 - [Prison Cat Found With Cellphone, Small Saws in Brazil](http://www.heavy.com/news/2013/01/prison-cat-cellphone-saws/), source of `prizon-cat.jpg`
 - [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg), source of `gizah.jpg`
 
-
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/larsyencken/simplecv-demo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
