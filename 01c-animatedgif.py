@@ -15,7 +15,8 @@ while disp.isNotDone():
     time.sleep(0.2)
 
     img = cam.getImage()
-    imset.append(img.scale(0.3))
+    small = img.scale(0.3)
+    imset.append(small)
     img.save(disp)
 
     if disp.lastLeftButton:

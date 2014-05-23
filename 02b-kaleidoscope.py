@@ -5,11 +5,11 @@ disp = SimpleCV.Display((1024, 768))
 
 while disp.isNotDone():
     img = cam.getImage()
-    h = img.sideBySide(
+    leftright = img.sideBySide(
         img.flipHorizontal()
     )
-    h.sideBySide(
-        h.flipVertical(),
+    leftright.sideBySide(
+        leftright.flipVertical(),
         'top'
     ).save(disp)
 
